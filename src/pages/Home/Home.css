@@ -1,0 +1,55 @@
+.home {
+  background-color: violet;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.pozaHome {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+.designer {
+  color: green;
+}
+
+.cv {
+  position: absolute;
+  left: 46%;
+  top: 20%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1;
+}
+
+.crs {
+  font-size: 43px;
+  font-weight: lighter;
+}
+
+.vcz {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.homeText {
+  margin: 5px;
+  width: 40%;
+}
+
+.designer {
+  font-size: 50px;
+  font-weight: bold;
+}
