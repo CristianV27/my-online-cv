@@ -2,10 +2,14 @@ import React from "react";
 import { Header } from "./components/Header/Header";
 import { Sidebar } from "./components/Sidebar/Sidebar";
 import { HomePage } from "./pages/Home/Home.jsx";
-
+import { AboutMe } from "./pages/AboutMe/AboutMe";
+import { Resume } from "./pages/Resume/Resume";
+import { Portfolio } from "./pages/Portfolio/Portfolio";
+import { Hobbies } from "./pages/Hobbies/Hobbies";
+import { Contact } from "./pages/Contact/Contact";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
-import { AboutMe } from "./pages/AboutMe/AboutMe";
+
 
 class App extends React.Component {
   render() {
@@ -29,7 +33,7 @@ class App extends React.Component {
             <Route path="/hobbies">
               <Hobbies />
             </Route>
-            <Route path="/Contact">
+            <Route path="/contact">
               <Contact />
             </Route>
           </Switch>
