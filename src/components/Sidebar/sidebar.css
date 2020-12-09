@@ -1,0 +1,18 @@
+.sidebar {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  border-left: 1px solid green;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+.logo {
+  padding-bottom: 10px;
+  margin-left: 10px;
+}

@@ -14,7 +14,7 @@ export class Header extends React.Component {
           <div className="cristian">CRISTIAN VINCZE</div>
         </div>
         <div className="headerRight">
-          <Link to="/aboutMe">
+          <Link to="/about-me">
             <button className="navButton">ABOUT ME</button>
           </Link>
           <Link to="/resume">

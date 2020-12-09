@@ -9,13 +9,12 @@ export class HomePage extends React.Component {
         <div>
           <img className="pozaHome" src={face} id="face" alt="face" />
         </div>
-        <div className="cv">
-          <p className="crs">Cristian</p>
-          <p className="vcz">Vincze</p>
-        </div>
         <div className="homeText">
+          <p className="crs">
+            Cristian <b>Vincze</b>
+          </p>
           <div className="designer">DESIGNER</div>
-          <p style={{ color: 'white' }}>
+          <p style={{ color: "white" }}>
             I finished a class of User Experience Design (UXD) from Informal
             School of IT, I have graphic design experience, and a strong
             technical background, beeing a graduate of the Technical University
