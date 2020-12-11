@@ -1,4 +1,72 @@
 .resume {
   color: white;
-  background-color: turquoise;
+  padding-top: 100px;
+  display: flex;
+}
+
+.rsLeft {
+  width: 450px;
+  margin-right: 20px;
+}
+
+.rsMiddle {
+  width: 450px;
+  margin-right: 20px;
+}
+
+.rsRight {
+  width: 450px;
+}
+
+.rsTitle {
+  font-weight: bolder;
+  color: green;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.rsCompany {
+  border-top: 1px solid green;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.rsJob {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.rsText {
+  font-size: 13px;
+}
+
+p {
+  padding-bottom: 5px;
+}
+
+meter {
+  margin-bottom: 10px;
+  width: 450px;
+  height: 30px;
+}
+
+.skills {
+  display: flex;
+  font-size: 14px;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  
+}
+
+mark {
+  background-color: grey;
+  color: white;
+  padding: 3px 10px;
+  margin-right: 5px;
+  border: 2px solid black;
+ 
 }

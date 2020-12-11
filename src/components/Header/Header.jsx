@@ -24,7 +24,7 @@ export class Header extends React.Component {
             <button className="navButton">PORTFOLIO</button>
           </Link>
           <Link to="/hobbies">
-            <button className="navButton">LET'S TALK ABOUT</button>
+            <button className="navButton">HOBBIES</button>
           </Link>
           <Link to="/contact">
             <button className="navButton">CONTACT</button>

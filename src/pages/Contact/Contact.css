@@ -1,4 +1,78 @@
 .contact {
+  margin: auto;
+  padding-top: 150px;
   color: white;
-  background-color: yellow;
+  width: 1000px;
+  /* border: 2px solid lime; */
+}
+
+.formDiv {
+  position: relative;
+  width: 49%;
+}
+
+.formText {
+  margin-top: 10px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 14px;
+  margin: 10px 0px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.ctTitle {
+  position: absolute;
+  top: -30px;
+  font-weight: bold;
+  color: green;
+  font-size: 20px;
+}
+
+.formTextInput {
+  position: relative;
+  height: 100px;
+  min-width: 1000px;
+  border-radius: 10px;
+}
+
+.formGroupText {
+  position: relative;
+}
+
+.submitBtn {
+  height: 30px;
+  border-radius: 15px;
+  padding: 0px 20px;
+  margin: 10px 0px;
+  border: 1px solid white;
+  color: green;
+  background-color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+  
+}
+
+#contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ctPic {
+  position: relative;
+}
+
+.myContact {
+  position: absolute;
+  top: 40px;
+  left: 250px;
+
 }

@@ -6,7 +6,7 @@ export class HomePage extends React.Component {
   render() {
     return (
       <div className="home">
-        <div>
+        <div className="homePoza">
           <img className="pozaHome" src={face} id="face" alt="face" />
         </div>
         <div className="homeText">

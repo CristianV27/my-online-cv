@@ -18,9 +18,6 @@ class App extends React.Component {
         <BrowserRouter>
           <Header></Header>
           <Switch> 
-            <Route path="/">
-              <HomePage />
-            </Route>
             <Route path="/about-me">
               <AboutMe />
             </Route>
@@ -35,6 +32,9 @@ class App extends React.Component {
             </Route>
             <Route path="/contact">
               <Contact />
+            </Route>
+            <Route path="/">
+              <HomePage />
             </Route>
           </Switch>
           <Sidebar></Sidebar>
