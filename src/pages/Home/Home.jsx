@@ -15,11 +15,13 @@ export class HomePage extends React.Component {
           </p>
           <div className="designer">DESIGNER</div>
           <p style={{ color: "white" }}>
-            I finished a class of User Experience Design (UXD) from Informal
-            School of IT, I have graphic design experience, and a strong
-            technical background, beeing a graduate of the Technical University
-            of Cluj napoca (UTCN). I am a creative person and have a lot of
-            attention to details. I like to participate at brainstorming
+            I am currently on a journey into the world of web development, using
+            platforms and java script code to bring to life beautifull
+            aplications. I also finished a class of User Experience Design (UXD)
+            from Informal School of IT, I have graphic design experience, and a
+            strong technical background, beeing a graduate of the Technical
+            University of Cluj napoca (UTCN). I am a creative person and have a
+            lot of attention to details. I like to participate at brainstorming
             sessions, I like to generate new ideas and make sketches, and I
             believe in my ability of solving problems. I think team work is a
             must in order for a team to succeed and to advance towards succes.

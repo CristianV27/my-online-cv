@@ -57,7 +57,10 @@ label {
   font-weight: bold;
   text-decoration: none;
   outline: none;
-  
+}
+
+.submitBtn:hover {
+  cursor: pointer;
 }
 
 #contact-form {

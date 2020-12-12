@@ -137,7 +137,7 @@ export class Contact extends React.Component {
           Submit
         </button>
         <div className="ctPic">
-          <img src={pic} alt="picture" width="1000"  />
+          <img src={pic} alt="contactPicture" width="1000"  />
             <div className="myContact">
                 <p>Or contact me @ 0743 495 664</p>
                 <p>Office: Molnar Piuariu, nr 5</p>
