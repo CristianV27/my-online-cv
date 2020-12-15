@@ -38,6 +38,12 @@ export class Contact extends React.Component {
     //     }
     //   });
   }
+  // nu mai e nevoie de ".bind(this)"
+  //   handleSubmit = (e) => {
+  //     e.preventDefault();
+  //     console.log(this.state);
+  //     this.resetForm();
+  //   }
 
   resetForm() {
     this.setState({
@@ -137,12 +143,12 @@ export class Contact extends React.Component {
           Submit
         </button>
         <div className="ctPic">
-          <img src={pic} alt="contactPicture" width="1000"  />
-            <div className="myContact">
-                <p>Or contact me @ 0743 495 664</p>
-                <p>Office: Molnar Piuariu, nr 5</p>
-                <p>Cluj Napoca, Romania</p>
-            </div>
+          <img src={pic} alt="contactPicture" width="1000" />
+          <div className="myContact">
+            <p>Or contact me @ 0743 495 664</p>
+            <p>Office: Molnar Piuariu, nr 5</p>
+            <p>Cluj Napoca, Romania</p>
+          </div>
         </div>
       </div>
     );
